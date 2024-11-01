@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Anexo Consultoria Contábil</title>
+
+    <meta
+      name="description"
+      content="Entenda o que é o modelo IVA e como ele funciona no Brasil. Saiba quais são as empresas obrigadas a adotá-lo e como ele pode afetar o seu negócio."
+    />
+    <meta
+      name="keywords"
+      content="modelo IVA
+    imposto sobre valor agregado
+    tributação
+    empresas obrigadas
+    regime tributário
+    contabilidade
+    negócios"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Anexo contabilidade" />
+
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@300&family=Orbitron:wght@500&family=Raleway&family=Russo+One&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/647606b0ed.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/artigos.css" />
+
+    <!-- jQuery -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header class="bg-light">
+      <nav class="navbar px-5 navbar-expand-sm navbar-light">
+        <div class="nav-items container-fluid">
+          <div>
+            <a class="navbar-brand m-0" href="../index.html"
+              ><img src="../assets/images/logo.png" width="180" alt
+            /></a>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link ms-3" href="../assets/artigos/marketing.html"
+                >Marketing</a
+              >
+              <a class="nav-link ms-3" href="../assets/artigos/tecnologia.html"
+                >Tecnologia</a
+              >
+              <a
+                class="nav-link ms-3"
+                href="../assets/artigos/contabilidade.html"
+                >Contabilidade</a
+              >
+              <a class="nav-link ms-3" href="../assets/artigos/vendas.html"
+                >Vendas</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-artigo">
+      <main>
+        <!-- artigos -->
+        <section id="artigos-ver-mais p-5" class="container-fluid text-dark">
+          <div class="row d-flex justify-content-center my-2">
+            <div
+              class="artigo-corpo col-md-9 d-flex justify-content-between flex-row align-items-center p-1"
+            >
+              <div class="row">
+                <div
+                  class="col-md-12 col-md d-flex justify-content-around flex-column p-3"
+                >
+                  <div class="artigos-info"></div>
+                  <div class="artigo-text">
+                    <figure>
+                      <img src="img/capa-iva.jpg" alt="Calculadora" />
+                    </figure>
+                    <h1>
+                      Veja os objetivos específicos do
+                      <strong>modelo IVA</strong>
+                    </h1>
+
+                    <div class="indice">
+                      <div
+                        class="d-flex align-items-center"
+                        style="margin-bottom: 10px"
+                      >
+                        <h4>ÍNDICE</h4>
+                        [<span id="ocultar" onclick="ocultarIndice()">
+                          OCULTAR </span
+                        >]
+                      </div>
+                      <div id="itens-indice">
+                        <ol>
+                          <li>
+                            <a href="#item1">O que é o modelo IVA?</a>
+                          </li>
+                          <li>
+                            <a href="#item2">Objetivos específicos do IVA</a>
+                          </li>
+                          <li>
+                            <a href="#item3"
+                              >Modelo IVA e o impacto na economia do Brasil</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#item4"
+                              >Processo de pagamento do modelo IVA</a
+                            >
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+
+                    <p>
+                      O Modelo de Valor Agregado, frequentemente abreviado como
+                      IVA (Imposto sobre Valor Agregado), é um sistema de
+                      imposto indireto que incide sobre o valor agregado a um
+                      produto ou serviço em cada estágio da cadeia de produção e
+                      distribuição. Os objetivos específicos do IVA podem variar
+                      de país para país, mas geralmente incluem:
+                    </p>
+
+                    <ul>
+                      <li>
+                        Aumentar a eficiência tributária: O IVA é projetado para
+                        ser um imposto eficiente que minimiza a evasão fiscal,
+                        uma vez que é aplicado em cada etapa da cadeia de valor,
+                        tornando mais fácil para as autoridades fiscais rastrear
+                        e coletar impostos.
+                      </li>
+                      <li>
+                        Reduzir a cascata de impostos: O IVA evita a acumulação
+                        de impostos em múltiplas etapas da produção, o que é
+                        comum em sistemas de impostos de vendas anteriores. Isso
+                        reduz a carga fiscal sobre os produtos e serviços,
+                        tornando-os mais acessíveis para os consumidores finais.
+                      </li>
+                      <li>
+                        Promover a neutralidade fiscal: O IVA é frequentemente
+                        estruturado para ser neutro em termos de concorrência, o
+                        que significa que não deve distorcer a decisão de
+                        produzir ou comprar bens e serviços. Isso ajuda a criar
+                        um ambiente de negócios equitativo.
+                      </li>
+                      <li>
+                        Aumentar a arrecadação de impostos: Como o IVA é
+                        geralmente um imposto de ampla base, pode levar a uma
+                        maior arrecadação de impostos em comparação com outros
+                        sistemas de impostos indiretos, especialmente se
+                        implementado efetivamente.
+                      </li>
+                      <li>
+                        Promover a transparência fiscal: O IVA é frequentemente
+                        acompanhado de requisitos de registro e relatórios
+                        rigorosos, o que pode melhorar a transparência nas
+                        transações comerciais e permitir uma administração
+                        tributária mais eficaz.
+                      </li>
+                      <li>
+                        Reduzir a evasão fiscal: A estrutura do IVA torna mais
+                        difícil para as empresas evitarem o pagamento de
+                        impostos, uma vez que os impostos são coletados em
+                        várias etapas da cadeia de valor.
+                      </li>
+                      <li>
+                        Aumentar a competitividade internacional: Em um contexto
+                        global, a adoção do IVA pode tornar os produtos e
+                        serviços do país mais competitivos, uma vez que reduz a
+                        carga tributária sobre a produção e exportação.
+                      </li>
+                      <li>
+                        Reduzir a informalidade econômica: O IVA pode incentivar
+                        as empresas a se registrar oficialmente e a operar
+                        legalmente, uma vez que a evasão fiscal se torna mais
+                        arriscada e dispendiosa.
+                      </li>
+                    </ul>
+
+                    <h2 id="item2">
+                      Objetivos específicos do <strong>IVA</strong>
+                    </h2>
+
+                    <p>
+                      É importante observar que a implementação e os objetivos
+                      específicos do IVA podem variar de um país para outro, com
+                      diferentes alíquotas, estruturas e políticas de isenção.
+                      Além disso, os governos podem adaptar seus sistemas de IVA
+                      para atender a metas econômicas e fiscais específicas.
+                    </p>
+
+                    <p>
+                      O Modelo IVA (Imposto sobre o Valor Acrescentado) é um
+                      sistema de tributação amplamente utilizado em muitos
+                      países para taxar o consumo de bens e
+                      <a
+                        href="https://www.anexoconsultoria.com.br/orcamento-outros-servicos.php"
+                        target="_blank"
+                        >serviços</a
+                      >. Há vários pontos sensíveis e considerações importantes
+                      relacionados ao IVA que devem ser levados em conta, tanto
+                      para os contribuintes como para as autoridades fiscais.
+                      Alguns desses pontos sensíveis incluem:
+                    </p>
+
+                    <ul>
+                      <li>
+                        Taxas de IVA: As taxas de IVA podem variar amplamente
+                        entre diferentes países e até mesmo dentro de um mesmo
+                        país, com diferentes produtos e serviços sendo
+                        tributados a taxas diferentes. A definição e aplicação
+                        corretas das taxas de IVA são cruciais.
+                      </li>
+                      <li>
+                        Regimes de Isenção: Alguns bens e serviços podem estar
+                        isentos de IVA ou sujeitos a uma taxa reduzida em
+                        determinadas circunstâncias. A correta identificação das
+                        isenções e a aplicação dos regimes adequados são
+                        essenciais.
+                      </li>
+                      <li>
+                        Declarações e Pagamentos: Contribuintes devem apresentar
+                        declarações de IVA periódicas e pagar o imposto devido
+                        dentro dos prazos estabelecidos. Erros na declaração ou
+                        atrasos nos pagamentos podem resultar em multas e juros.
+                      </li>
+                      <li>
+                        Recuperação de Créditos de IVA: Empresas que pagam IVA
+                        sobre suas compras podem ter o direito de recuperar
+                        créditos de IVA. Acompanhar e garantir a recuperação
+                        desses créditos de forma eficaz é importante.
+                      </li>
+                      <li>
+                        Evasão Fiscal: A evasão fiscal é um problema comum no
+                        sistema de IVA. As autoridades fiscais precisam
+                        implementar medidas eficazes para combater a evasão
+                        fiscal, e os contribuintes devem cumprir suas obrigações
+                        fiscais de maneira honesta.
+                      </li>
+                      <li>
+                        Complexidade do Sistema: A complexidade do sistema de
+                        IVA pode ser um desafio para empresas e indivíduos. A
+                        conformidade fiscal adequada requer um entendimento
+                        sólido das regras do IVA, o que pode ser complicado
+                        devido à diversidade de produtos e serviços.
+                      </li>
+                      <li>
+                        Impacto nos Preços: O IVA pode afetar os preços de bens
+                        e serviços, e as empresas precisam considerar a forma
+                        como o imposto é repassado aos consumidores.
+                      </li>
+                      <li>
+                        Benefícios e Desvantagens: O IVA oferece a capacidade de
+                        arrecadar impostos de forma eficiente, mas também pode
+                        afetar diferentes segmentos da população de maneira
+                        desigual. As autoridades fiscais precisam equilibrar os
+                        benefícios e desvantagens do IVA.
+                      </li>
+                      <li>
+                        Evolução das Regulamentações: As regulamentações de IVA
+                        podem mudar ao longo do tempo, com novas regras sendo
+                        introduzidas e ajustes nas taxas. Os contribuintes
+                        precisam estar cientes dessas mudanças e se adaptar a
+                        elas.
+                      </li>
+                      <li>
+                        Comércio Internacional: O IVA desempenha um papel
+                        importante no comércio internacional, e as empresas que
+                        exportam ou importam bens e serviços precisam entender
+                        as implicações do IVA em transações internacionais.
+                      </li>
+                    </ul>
+
+                    <p>
+                      Estes são apenas alguns dos pontos sensíveis relacionados
+                      ao modelo de IVA. A conformidade com as leis fiscais e
+                      regulamentações é essencial para evitar problemas legais e
+                      financeiros. É aconselhável consultar um profissional de
+                      impostos ou contador para obter orientações específicas,
+                      uma vez que as regras do IVA podem variar
+                      consideravelmente de um país para outro.
+                    </p>
+
+                    <figure>
+                      <img src="img/calculadora-iva.jpg" alt="Calculadora" />
+                    </figure>
+                    <h2 id="item3">
+                      <strong>Modelo IVA</strong> e o impacto na economia do
+                      Brasil
+                    </h2>
+
+                    <p>
+                      O
+                      <a
+                        href="https://www.anexoconsultoria.com.br/orcamento-outros-servicos.php"
+                        target="_blank"
+                        >Imposto sobre Valor Adicionado</a
+                      >
+                      (IVA) é um imposto indireto que incide sobre o valor
+                      adicionado a um produto ou serviço em cada etapa da cadeia
+                      de produção e distribuição. É um sistema de tributação
+                      muito utilizado em todo o mundo, e muitos países têm
+                      implementado o IVA como parte de suas reformas fiscais
+                      para melhorar a eficiência e a equidade do sistema
+                      tributário. No caso do Brasil, o IVA tem sido uma proposta
+                      recorrente de reforma tributária, mas até a minha data de
+                      conhecimento em setembro de 2021, não havia sido
+                      implementado em nível federal. No entanto, é importante
+                      destacar que o impacto do IVA na economia do Brasil
+                      dependerá de vários fatores, incluindo a forma como é
+                      projetado, implementado e administrado. Aqui estão alguns
+                      dos possíveis impactos do IVA na economia brasileira:
+                    </p>
+
+                    <ul>
+                      <li>
+                        Simplificação e redução de custos: Um sistema de IVA bem
+                        projetado pode simplificar o sistema tributário,
+                        reduzindo a burocracia e os custos de conformidade para
+                        as empresas. Isso pode melhorar a eficiência do setor
+                        privado e reduzir a sonegação de impostos.
+                      </li>
+                      <li>
+                        Estímulo ao investimento: Com a simplificação e a
+                        redução dos custos tributários, o IVA pode incentivar o
+                        investimento e o empreendedorismo, promovendo o
+                        crescimento econômico a longo prazo.
+                      </li>
+                      <li>
+                        Equidade fiscal: O IVA pode ser projetado para ser mais
+                        progressivo do que os impostos indiretos existentes,
+                        como o ICMS e o PIS/Cofins. Isso pode contribuir para
+                        uma distribuição mais justa da carga tributária,
+                        aliviando os encargos para os estratos mais baixos da
+                        sociedade.
+                      </li>
+                      <li>
+                        Mudanças no consumo: O IVA pode afetar os padrões de
+                        consumo, dependendo das taxas aplicadas a diferentes
+                        tipos de produtos e serviços. Pode haver impactos no
+                        consumo de itens considerados essenciais versus itens de
+                        luxo.
+                      </li>
+                      <li>
+                        Receita do governo: Dependendo das alíquotas e da base
+                        tributável, o IVA pode aumentar ou diminuir a receita do
+                        governo. Isso pode ter implicações para o financiamento
+                        de programas sociais e investimentos em infraestrutura.
+                      </li>
+                      <li>
+                        Coordenação entre os níveis de governo: No Brasil, a
+                        estrutura tributária é complexa, com vários níveis de
+                        governo (federal, estadual e municipal) cobrando
+                        diferentes impostos. A introdução do IVA exigiria uma
+                        coordenação eficaz entre esses níveis.
+                      </li>
+                      <li>
+                        Desafios de implementação: A implementação de um novo
+                        sistema tributário pode ser complexa e enfrentar
+                        desafios administrativos e políticos. É importante
+                        projetar o IVA de forma a minimizar a evasão fiscal e a
+                        sonegação.
+                      </li>
+                    </ul>
+
+                    <p>
+                      Em resumo, a introdução do IVA no Brasil poderia ter um
+                      impacto significativo na economia, potencialmente
+                      melhorando a eficiência e a equidade do sistema
+                      tributário. No entanto, a forma como ele é projetado e
+                      implementado, bem como a coordenação entre os diferentes
+                      níveis de governo, desempenharam um papel fundamental na
+                      determinação desses impactos.
+                    </p>
+
+                    <h2 id="item4">
+                      Processo de pagamento do <strong>modelo IVA</strong>
+                    </h2>
+
+                    <p>
+                      O processo de pagamento do Imposto sobre o Valor
+                      Adicionado (IVA) pode variar de acordo com o país e suas
+                      <a
+                        href="https://www.anexoconsultoria.com.br/orcamento-outros-servicos.php"
+                        target="_blank"
+                        >regulamentações fiscais específicas.</a
+                      >
+                      No entanto, geralmente segue um conjunto de etapas
+                      semelhantes. Aqui está um guia geral sobre o processo de
+                      pagamento do IVA:
+                    </p>
+
+                    <ol>
+                      <li>
+                        Registro para o IVA:
+                        <ul>
+                          <li>
+                            Antes de começar a pagar o IVA, uma empresa deve se
+                            registrar para obter um número de identificação
+                            fiscal e uma licença de IVA, se aplicável. Isso
+                            geralmente é feito junto à autoridade fiscal do
+                            país.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Coleta do IVA:
+                        <ul>
+                          <li>
+                            A empresa coleta o IVA de seus clientes sobre as
+                            vendas de bens ou serviços tributáveis. Esse valor é
+                            conhecido como &quot;IVA a pagar.&quot;
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Dedução do IVA:
+                        <ul>
+                          <li>
+                            A empresa também pode deduzir o IVA que pagou na
+                            compra de bens e serviços utilizados para fins
+                            comerciais. Esse valor é conhecido como &quot;IVA
+                            dedutível&quot;.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Cálculo do IVA a pagar:
+                        <ul>
+                          <li>
+                            O IVA a pagar é calculado subtraindo o valor do IVA
+                            dedutível do valor do IVA a receber (coletado dos
+                            clientes).
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Período de relatório:
+                        <ul>
+                          <li>
+                            Geralmente, as empresas têm um período de relatório
+                            regular, como mensal, trimestral ou anual, durante o
+                            qual devem informar às autoridades fiscais sobre
+                            suas transações e o valor do IVA a pagar.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Preparação da declaração de IVA:
+                        <ul>
+                          <li>
+                            A empresa prepara uma declaração de IVA, que inclui
+                            informações detalhadas sobre suas transações,
+                            incluindo as vendas, as compras, o IVA a pagar e o
+                            IVA dedutível.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Envio da declaração:
+                        <ul>
+                          <li>
+                            A declaração de IVA é enviada para a autoridade
+                            fiscal dentro do prazo especificado.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Pagamento do IVA:
+                        <ul>
+                          <li>
+                            Com base na declaração de IVA, a empresa deve
+                            efetuar o pagamento do IVA a pagar. Isso geralmente
+                            envolve transferir os fundos devidos para a conta
+                            designada da autoridade fiscal.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Auditorias e verificações:
+                        <ul>
+                          <li>
+                            A autoridade fiscal pode conduzir auditorias ou
+                            verificações para garantir a precisão das
+                            informações relatadas e do pagamento do IVA.
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        Manutenção de registros:
+                        <ul>
+                          <li>
+                            A empresa deve manter registros precisos de suas
+                            transações e declarações de IVA por um período
+                            especificado, geralmente vários anos.
+                          </li>
+                        </ul>
+                      </li>
+                    </ol>
+
+                    <p>
+                      É importante observar que o processo de pagamento do IVA
+                      pode variar significativamente de um país para outro, e as
+                      regras fiscais e os prazos podem ser diferentes. Portanto,
+                      é fundamental consultar as regulamentações fiscais
+                      específicas do seu país ou região e, se necessário, contar
+                      com a assistência de um contador ou consultor fiscal para
+                      garantir o cumprimento das obrigações fiscais.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="renderizar">
+              <div>
+                <button id="curtirButton">
+                  Curtir <i class="bi bi-hand-thumbs-up"></i>
+                </button>
+                <button
+                  id="compartilharButton"
+                  onclick="toggleCompartilharOptions()"
+                >
+                  Compartilhar
+                </button>
+                <div class="compartilharOptions" id="compartilharOptions">
+                  <div class="d-flex justify-content-between">
+                    <p>Compartilhar esta página:</p>
+                    <i
+                      class="bi bi-x-circle"
+                      onclick="toggleCompartilharOptions()"
+                    ></i>
+                  </div>
+                  <div class="urlContainer">
+                    <span id="urlDisplay"></span>
+                    <button id="copiarButton">
+                      Copiar <i class="bi bi-copy"></i>
+                    </button>
+                  </div>
+                  <a class="whatsappbtn" id="whatsappButton"
+                    >WhatsApp <i class="bi bi-whatsapp"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Widget -->
+        <section class="artigos-widget">
+          <!-- Ferramenta de busca -->
+          <div class="widget-section">
+            <h2>Pesquisa no Blog</h2>
+            <!-- seachbar -->
+            <section>
+              <div class="container" id="seachbar">
+                <div class="row align-items-center">
+                  <div class="col-md-12">
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        id="pesquisa"
+                        class="form-control p-3 border-light"
+                        placeholder="Pesquisar por..."
+                      />
+                      <button class="btn btn-danger p-3" type="button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="widget-section">
+            <h2>Categorias</h2>
+            <div id="categorias">
+              <h3><a href="../assets/artigos/marketing.html">Marketing</a></h3>
+              <h3>
+                <a href="../assets/artigos/tecnologia.html">Tecnologia</a>
+              </h3>
+              <h3>
+                <a href="../assets/artigos/contabilidade.html">Contabilidade</a>
+              </h3>
+              <h3><a href="../assets/artigos/vendas.html">Vendas</a></h3>
+            </div>
+          </div>
+          <div class="widget-section">
+            <h2>Áreas</h2>
+            <div>
+              <h3><a href="">Contabilidade para Afiliados</a></h3>
+              <h3><a href="">Contabilidade para Youtubers</a></h3>
+              <h3><a href="">Contabilidade para Microempreendedores</a></h3>
+              <h3><a href="">Contabilidade para Advogados</a></h3>
+            </div>
+          </div>
+          <div class="widget-section">
+            <h2>Diversos</h2>
+            <div>
+              <h3><a href="">Abertura de Empresa</a></h3>
+              <h3><a href="">Sistema Conta</a></h3>
+              <h3><a href="">Sistema E-notas</a></h3>
+              <h3><a href="">Trabelhe conosco</a></h3>
+              <h3><a href="">Contato</a></h3>
+            </div>
+          </div>
+        </section>
+        <!-- icone whatsapp pulse -->
+        <div>
+          <a
+            href="https://api.whatsapp.com/send?phone=5581982026619&text=Ol%C3%A1,%20como%20podemos%20ajudar?"
+            class="wa"
+            target="_blank"
+          >
+            <img src="../assets/images/WhatsApp.webp" alt width="25" />
+          </a>
+        </div>
+      </main>
+    </div>
+    <footer class="container-fluid px-5 bg-dark text-light sm-text-center">
+      <div class="row-col-small py-3">
+        <div class="flex-column d-flex justify-content-center font-small">
+          <div
+            class="flex-row d-flex justify-content-center align-items-center"
+          >
+            <a href="https://www.anexoconsultoria.com.br/"
+              ><img
+                src="../assets/images/logo-anexo.webp"
+                alt="logo anexo"
+                class="logo-footer"
+            /></a>
+          </div>
+        </div>
+        <div class="flex-column d-flex justify-content-around">
+          <div>
+            <p>
+              Rua Irene Ramos Gomes de Mattos, 63 <br />Pina Recife - PE
+              51.011-530
+            </p>
+          </div>
+          <div>
+            <p>
+              (81) 3019-6619 / 3132-9661 / 98202-6619
+              <br />proposta@anexoconsultoria.com.br
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="ms-auto conteudos">
+            <p class="text-light text-center"><strong>CONTEÚDOS</strong></p>
+            <a
+              class="nav-link-footer ms-3"
+              href="/assets/artigos/marketing.html"
+              >Marketing</a
+            >
+            <a
+              class="nav-link-footer ms-3"
+              href="/assets/artigos/tecnologia.html"
+              >Tecnologia</a
+            >
+            <a
+              class="nav-link-footer ms-3"
+              href="/assets/artigos/contabilidade.html"
+              >Contabilidade</a
+            >
+            <a class="nav-link-footer ms-3" href="/assets/artigos/vendas.html"
+              >Vendas</a
+            >
+          </div>
+        </div>
+
+        <div class="flex-row d-flex justify-content-center align-items-center">
+          <div>
+            <p class="font-small text-center mx-2">Desenvolvido por:</p>
+            <a href="https://www.promovacomunicacao.com.br/"
+              ><img
+                src="../assets/images/logo-promova-04.webp"
+                alt="logo promova"
+                class="logo-footer"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-top border-secondary row-col py-3">
+        <div>
+          <p class="text-center">
+            © Anexo Consultoria 2023 - Todos os direitos reservados
+          </p>
+        </div>
+        <div
+          class="icone-redes-sociais text-center d-flex justify-content-center"
+        >
+          <div class="d-flex flex-row gap-3 text-decoration-none">
+            <a
+              href="https://api.whatsapp.com/send?phone=5581982026619&text=Ol%C3%A1,%20como%20podemos%20ajudar?"
+              alt="redes sociais"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/contabilidaderecife/"
+              alt="redes sociais"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/anexogestaocontabil"
+              alt="redes sociais"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/anexogestaocontabil/mycompany/"
+              alt="redes sociais"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="mailto:proposta@anexoconsultoria.com.br"
+              alt="redes sociais"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/artigo.js"></script>
+  </body>
+</html>

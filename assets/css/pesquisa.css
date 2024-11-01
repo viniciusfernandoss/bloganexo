@@ -1,0 +1,14 @@
+#resultadoPesquisa {
+    margin-top: 25px;
+}
+
+.p-resultado {
+    display: flex;
+    justify-content: center;
+}
+
+.artigo-resultado {
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 600px;
+}

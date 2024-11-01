@@ -1,0 +1,223 @@
+p {
+  text-align: justify;
+}
+
+img {
+  margin: 25px 0px 25px 0px;
+}
+
+i {
+  font-style: normal;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+}
+
+.artigos-info p {
+  text-align: left;
+  margin-bottom: -15px;
+}
+
+strong {
+  color: rgb(201, 33, 33);
+}
+
+span {
+  color: rgb(201, 33, 33);
+  cursor: pointer;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.container-artigo {
+  margin-top: 160px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.artigo-corpo {
+  margin: 50px;
+}
+
+.container-artigo main {
+  display: flex;
+  justify-content: center;
+}
+
+.artigo-text {
+  width: 800px;
+}
+
+.artigo-text h1,
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-weight: bold;
+}
+
+.artigos-widget {
+  margin-top: 72px;
+  margin-left: 20px;
+}
+
+.widget-section {
+  background-color: #f5f5f7;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.artigos-widget h2 {
+  font-size: x-large;
+}
+
+.artigos-widget h3 {
+  font-size: medium;
+  font-family: "roboto", sans-serif;
+}
+
+.artigo-corpo {
+  width: 900px;
+  background-color: #fff;
+}
+
+/* SEARCHBAR */
+.searchbar {
+  padding: 0px;
+  height: 10px;
+  margin: 0px;
+}
+
+.indice ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.indice h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.indice ol {
+  color: #3175e4;
+}
+
+.indice a {
+  text-decoration: none;
+  color: #3175e4;
+}
+
+.indice a:hover {
+  text-decoration: underline;
+}
+
+.indice {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #e8e8e8;
+  max-width: 500px;
+  padding: 20px;
+  border: 1px solid #aaaaaa;
+}
+@media (max-width: 768px) {
+  .widget-section {
+    display: none;
+  }
+
+  .artigo-text,
+  .artigo-text img {
+    max-width: 400px;
+  }
+
+  .artigo-text img {
+    width: 100%;
+  }
+
+  .artigo-text {
+    padding: 15px;
+  }
+
+  .artigo-corpo {
+    margin-top: -85px;
+  }
+
+  .artigos-info p {
+    text-align: center;
+  }
+
+  .artigo-corpo .row {
+    margin: auto;
+  }
+
+  .navbar {
+    height: 100px;
+  }
+}
+
+/* Estilos para os botões e opções de compartilhamento */
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.compartilharOptions {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.urlContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#urlDisplay {
+  flex: 1;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+
+#copiarButton {
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.whatsappbtn{
+  background-color: #0ba360;
+  color: #ccc;
+  padding: .5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.whatsappbtn:hover{
+  background-color: #08814d;
+  color: #ccc;
+}
+#curtirButton i{
+  font-size: 18px;
+}
+
+.bi-x-circle {
+  font-size: 20px;
+  color: #cb3337;
+  cursor: pointer;
+}

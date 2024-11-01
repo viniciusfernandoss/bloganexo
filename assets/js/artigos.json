@@ -1,0 +1,119 @@
+{
+  "artigos": [
+    {
+      "imagem": "/artigos/img/contabilidade-para-advogados.jpg",
+      "titulo": "Contabilidade para Advogados: Uma Parceria Estratégica",
+      "descricao": "Explore as últimas inovações em do mercado que podem melhorar a experiência do Advogado.",
+      "data": "09/11/2023",
+      "categoria": "Contabilidade",
+      "url": "contabilidade-para-advogados.html"
+    },
+    {
+      "imagem": "/artigos/img/seo.jpg",
+      "titulo": "Ferramentas de SEO essenciais",
+      "descricao": "Descubra as melhores ferramentas de SEO para impulsionar a visibilidade online. Otimize seu site e analise dados cruciais para maximizar o desempenho nas pesquisas.",
+      "data": "14/11/2023",
+      "categoria": "Marketing",
+      "url": "ferramentas-seo-essenciais.html"
+    },
+    {
+      "imagem": "/artigos/img/capa-iva.jpg",
+      "titulo": "Objetivos específicos do modelo IVA",
+      "descricao": "Desvende os objetivos específicos do Modelo IVA em um artigo informativo, revelando como essa abordagem impulsiona resultados impactantes.",
+      "resumo": "O Modelo de Valor Agregado, frequentemente abreviado como IVA (Imposto sobre Valor Agregado), é um sistema de imposto indireto que incide sobre o valor agregado a um produto ou serviço em cada estágio da cadeia de produção e distribuição. Os objetivos específicos do IVA podem variar de país para país, mas geralmente incluem:",
+      "data": "16/11/2023",
+      "categoria": "Contabilidade",
+      "url": "o-que-e-modelo-iva.html"
+    },
+    {
+      "imagem": "/artigos/img/b2b-3.jpg",
+      "titulo": "Tendências Emergentes em Vendas B2B",
+      "descricao": "Explore as tendências emergentes em vendas B2B e saiba como adaptar sua abordagem para ter sucesso em um mercado em constante evolução.",
+      "resumo":"As vendas business-to-business (B2B) estão passando por uma transformação significativa à medida que o cenário empresarial evolui rapidamente. Empresas estão cada vez mais focadas em adotar estratégias inovadoras para atender às demandas do mercado. Várias tendências emergiram, moldando o futuro das vendas B2B e redefinindo a maneira como as organizações abordam seus clientes e parceiros de negócios.",
+      "data": "17/11/2023",
+      "categoria": "Vendas",
+      "url": "tendencias-emergentes-em-vendas-b2b.html"
+    },
+    {
+      "imagem": "/artigos/img/ai2.jpg",
+      "titulo": "Inteligência Artificial: Desvendando as Fronteiras da Inovação",
+      "descricao": "Desvende o impacto e potencial da Inteligência Artificial, explorando sua inovação e desafios éticos neste artigo revelador.",
+      "resumo": "A Inteligência Artificial (IA) emerge como uma revolução tecnológica que redefine a maneira como interagimos com o mundo ao nosso redor. Esse campo multidisciplinar busca desenvolver sistemas capazes de realizar tarefas que, até então, dependiam exclusivamente da inteligência humana. Seu potencial transcende as fronteiras tradicionais, moldando indústrias, impulsionando descobertas científicas e transformando a sociedade.",
+      "data": "20/11/2023",
+      "categoria": "Tecnologia",
+      "url": "inteligencia-artificial-desvendando-as-fronteiras.html"
+    },
+    {
+      "imagem": "/artigos/img/ComputacaoemNuvem.jpg",
+      "titulo": "Computação em Nuvem e Transformação Digital",
+      "descricao": "Examinação do papel da computação em nuvem na modernização de empresas e na entrega de serviços digitais escaláveis e eficientes.",
+      "resumo": "Em suma, a computação em nuvem desempenha um papel crucial na modernização das empresas, capacitando-as a oferecer serviços digitais escaláveis e eficientes em um ambiente altamente competitivo. Ao adotar essa tecnologia inovadora, as empresas podem reduzir custos operacionais, aumentar a agilidade e a inovação e melhorar a experiência do cliente. No entanto, é importante que as empresas considerem cuidadosamente os desafios e considerações associados à migração para a nuvem, garantindo a segurança e conformidade de seus dados enquanto aproveitam os benefícios dessa transformação digital.",
+      "data": "15/05/2024",
+      "categoria": "Tecnologia",
+      "url": "computacao-em-nuvem.html"
+    },
+    {
+      "imagem": "/artigos/img/startup-img.avif",
+      "titulo": "Contabilidade para Startups",
+      "descricao": "Estratégias Financeiras para Empresas em Crescimento.",
+      "resumo": "Ao adotar as melhores práticas contábeis e trabalhar em estreita colaboração com contadores experientes, as startups podem superar os desafios financeiros iniciais e estabelecer uma base sólida para o crescimento sustentável.",
+      "data": "22/05/2024",
+      "categoria": "Contabilidade",
+      "url": "contabilidade-para-startups.html"
+    },
+    {
+      "imagem": "/artigos/img/mkt-cont.jpg",
+      "titulo": "Marketing de Nicho no contexto contábil",
+      "descricao": "O marketing de nicho oferece uma abordagem estratégica para os escritórios de contabilidade se destacarem em um mercado altamente competitivo.",
+      "data": "29/05/2024",
+      "resumo": "Ao identificar, segmentar e dominar mercados específicos por meio de estratégias personalizadas, os escritórios contábeis podem estabelecer uma posição de destaque e garantir seu sucesso e crescimento contínuo no mercado contábil.",
+      "categoria": "Marketing",
+      "url": "marketing-de-nicho-no-contexto-contabil.html"
+    },
+    {
+      "imagem": "/artigos/img/est-exe.jpg",
+      "titulo": "Da Estratégia à Execução",
+      "descricao": "Implementação de um plano de vendas eficaz requer uma abordagem estruturada e colaborativa, especialmente no contexto contábil.",
+      "resumo":"Ao desenvolver e executar estratégias de vendas sólidas, e ao garantir uma colaboração estreita entre as equipes de vendas e contabilidade, as empresas podem alcançar o sucesso nas vendas e impulsionar seu crescimento empresarial de forma sustentável.",
+      "data": "31/05/2024",
+      "categoria": "Vendas",
+      "url": "da-estra-a-execucao.html"
+    },
+    {
+      "imagem": "/artigos/img/ia-medicina.avif",
+      "titulo": "Inteligência Artificial na Medicina",
+      "descricao": "Impactos, Desafios e Pespectivas Futuras",
+      "resumo": "Com uma abordagem colaborativa e centrada no paciente, a IA tem o potencial de transformar radicalmente a prática médica e melhorar os resultados de saúde em todo o mundo.",
+      "data": "07/06/2024",
+      "categoria": "Tecnologia",
+      "url": "ia-na-medicina.html"
+    },
+    {
+      "imagem": "/artigos/img/Blockchain.png",
+      "titulo": "Tecnologia Blockchain e Contabilidade",
+      "descricao": "Estratégias Financeiras para Empresas em Crescimento.",
+      "resumo": "Contadores e escritórios de contabilidade que abraçam essa tecnologia, estão bem posicionados para liderar a próxima era da contabilidade digital, promovendo uma maior transparência e integridade nos mercados financeiros globais.",
+      "data": "21/06/2024",
+      "categoria": "Contabilidade",
+      "url": "tecnologia-blockchain-contabilidade.html"
+    },
+    {
+      "imagem": "/artigos/img/vendas-img-1.jpg",
+      "titulo": "Potencializando Vendas",
+      "descricao": "O uso de sistemas de informação contábil para melhorar a eficiência das equipes de vendas.",
+      "resumo":"Investir em sistemas de informação contábil não é apenas uma escolha estratégica, mas uma necessidade para empresas que desejam se destacar em um ambiente competitivo e dinâmico.",
+      "data": "21/06/2024",
+      "categoria": "Vendas",
+      "url": "potencializando-vendas.html"
+    },
+    {
+      "imagem": "/artigos/img/foto1-artigo10112024.webp",
+      "titulo": "A Importância do Marketing nos Escritórios de Contabilidade",
+      "descricao": "O marketing é crucial para atrair e fidelizar clientes em escritórios de contabilidade, garantindo visibilidade e crescimento em um mercado competitivo.",
+      "resumo":"O marketing é vital para escritórios de contabilidade, pois atrai e fideliza clientes em um mercado competitivo. A presença digital e as redes sociais estabelecem autoridade e engajamento, enquanto a automação e o CRM melhoram o atendimento. Investir em marketing é essencial para o crescimento sustentável desses escritórios.",
+      "data": "01/11/2024",
+      "categoria": "Contabilidade",
+      "url": "a-importancia-do-marketing-nos-escritorios-de-contabilidade.html"
+    }
+  ]
+}

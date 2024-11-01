@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+          teste
+        </title>
+    
+        <meta
+          name="description"
+          content="Descubra como a inteligência artificial está desvendando as fronteiras do conhecimento e revolucionando diversos setores, como tecnologia, saúde, finanças e muito mais."
+        />
+        <meta
+          name="keywords"
+          content="Inteligência Artificial
+        IA
+        Aprendizado de Máquina
+        Redes Neurais
+        Algoritmos
+        Tecnologia
+        Inovação
+        Automação
+        Futuro"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Anexo Consultoria Contábil" />
+    
+        <!-- Adicone um meta tag para definir imagem -->
+        <meta property="og:image" content="img/ai2.jpg" />
+    
+        <!-- GoogleFonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@300&family=Orbitron:wght@500&family=Raleway&family=Russo+One&family=Titan+One&display=swap"
+          rel="stylesheet"
+        />
+    
+        <!-- Fontawsome -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+        <script
+          src="https://kit.fontawesome.com/647606b0ed.js"
+          crossorigin="anonymous"
+        ></script>
+    
+        <!-- Bootstrap -->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+          crossorigin="anonymous"
+        ></script>
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="../assets/css/style.css" />
+        <link rel="stylesheet" href="../assets/css/artigos.css" />
+    
+        <!-- jQuery -->
+        <script
+          src="https://code.jquery.com/jquery-3.6.0.js"
+          integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+          crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <header class="bg-light">
+            <nav class="navbar px-5 navbar-expand-sm navbar-light">
+              <div class="nav-items container-fluid">
+                <div>
+                  <a class="navbar-brand m-0" href="../index.html"
+                    ><img src="../assets/images/logo.png" width="180" alt
+                  /></a>
+                  <button
+                    class="navbar-toggler border-0"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ms-auto">
+                    <a class="nav-link ms-3" href="../assets/artigos/marketing.html"
+                      >Marketing</a
+                    >
+                    <a class="nav-link ms-3" href="../assets/artigos/tecnologia.html"
+                      >Tecnologia</a
+                    >
+                    <a
+                      class="nav-link ms-3"
+                      href="../assets/artigos/contabilidade.html"
+                      >Contabilidade</a
+                    >
+                    <a class="nav-link ms-3" href="../assets/artigos/vendas.html"
+                      >Vendas</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </nav>
+        </header>
+        <div class="container-artigo">
+            <main>
+                <!-- artigos -->
+                <section id="artigos-ver-mais p-5" class="container-fluid text-dark">
+                <div class="row d-flex justify-content-center my-2">
+                    <div
+                    class="artigo-corpo col-md-9 d-flex justify-content-between flex-row align-items-center p-1"
+                    >
+                    <div class="row">
+                        <div
+                        class="col-md-12 col-md d-flex justify-content-around flex-column p-3"
+                        >
+                        <div class="artigos-info"></div>
+                        <div class="artigo-text">
+                            <figure>
+                            <img src="img/foto3-artigo10112024.webp" alt="Reunião de empresa" />
+                            </figure>
+                            <h1>
+                                <strong>A Importância do Marketing nos Escritórios de Contabilidade:</strong><br> O marketing é crucial para atrair e fidelizar clientes em escritórios de contabilidade.
+                            </h1>
+
+                            <div class="indice">
+                            <div
+                                class="d-flex align-items-center"
+                                style="margin-bottom: 10px"
+                            >
+                                <h4>ÍNDICE</h4>
+                                [<span id="ocultar" onclick="ocultarIndice()">
+                                OCULTAR </span
+                                >]
+                            </div>
+                            <div id="itens-indice">
+                                <ol>
+                                <li>
+                                    <a href="#item1">Introdução </a>
+                                </li>
+                                <li>
+                                    <a href="#item2">Atração de Novos Clientes</a>
+                                </li>
+                                <li>
+                                    <a href="#item3">Fidelização de Clientes</a>
+                                </li>
+                                <li>
+                                    <a href="#item4">Melhoria no Atendimento</a>
+                                </li>
+                                <li>
+                                    <a href="#item6">Conclusão</a>
+                                </li>
+                                </ol>
+                            </div>
+                            </div>
+
+                            <h2 id="item1"><strong>Introdução</strong></h2>
+                            <p>
+                                Em um cenário cada vez mais competitivo, o marketing tornou-se uma ferramenta essencial para o sucesso de qualquer negócio, inclusive para escritórios de contabilidade. Embora muitos profissionais da área contábil ainda enxerguem o marketing como algo reservado apenas para empresas de bens de consumo ou tecnologia, a realidade é que investir em estratégias de marketing adequadas pode transformar a maneira como escritórios contábeis se posicionam no mercado e conquistam novos clientes.
+                            </p>
+
+                            <h2 id="item2">
+                                Atração de <strong>Novos Clientes</strong>
+                            </h2>
+                            <p>
+                                O marketing é uma das formas mais eficazes de atrair novos clientes para um escritório de contabilidade. Em um mundo onde a presença digital é cada vez mais importante, os potenciais clientes buscam empresas online antes de tomar decisões. Com uma estratégia bem estruturada, um escritório pode ser facilmente encontrado nos mecanismos de busca, nas redes sociais ou em plataformas especializadas. A criação de conteúdo relevante, como blogs e vídeos explicativos, também pode educar o público sobre questões contábeis e estabelecer a empresa como autoridade no assunto.
+                            </p>
+                            
+                            <h2 id="item3">
+                                Fidelização de Clientes
+                            </h2>
+                            <p>
+                                Não basta apenas atrair novos clientes; é crucial mantê-los. O marketing ajuda na fidelização ao permitir uma comunicação constante e relevante com os clientes atuais. Boletins informativos, e-mails com dicas financeiras ou até mesmo webinars explicativos sobre temas tributários podem reforçar a relação e manter os clientes engajados. Além disso, o marketing relacional permite que o escritório compreenda melhor as necessidades de seus clientes e ofereça soluções personalizadas.
+                            </p>
+                            <!-- Imagem no conteudo do artigo -->
+                            <figure>
+                                <img src="img/foto2-artigo10112024.webp" alt="Calculadora" />
+                            </figure>
+                            <h2 id="item4">
+                                <strong>Melhoria no Atendimento</strong>
+                            </h2>
+                            <p>
+                                O marketing não se limita apenas à atração e retenção de clientes, mas também pode impactar diretamente o atendimento ao cliente. Ao investir em ferramentas como chatbots, automação de e-mails e plataformas de gestão de relacionamento (CRM), os escritórios de contabilidade podem oferecer um atendimento mais ágil e eficiente, o que aumenta a satisfação dos clientes e otimiza os processos internos.
+                            </p>
+                            
+                            <h2 id="item6">
+                                <strong>Conclusão</strong>
+                            </h2>
+                            <p>
+                                O marketing, quando bem implementado, é um grande aliado dos escritórios de contabilidade que desejam crescer e se consolidar no mercado. Ao fortalecer a imagem da empresa, atrair novos clientes e fidelizar os atuais, além de se diferenciar da concorrência, o marketing proporciona um crescimento sustentável. Portanto, investir em estratégias de marketing digital e tradicional é fundamental para qualquer escritório que busca se destacar e prosperar em um mercado cada vez mais dinâmico e desafiador.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div id="renderizar">
+                    <div>
+                        <button id="curtirButton">
+                        Curtir <i class="bi bi-hand-thumbs-up"></i>
+                        </button>
+                        <button
+                        id="compartilharButton"
+                        onclick="toggleCompartilharOptions()"
+                        >
+                        Compartilhar
+                        </button>
+                        <div class="compartilharOptions" id="compartilharOptions">
+                        <div class="d-flex justify-content-between">
+                            <p>Compartilhar esta página:</p>
+                            <i
+                            class="bi bi-x-circle"
+                            onclick="toggleCompartilharOptions()"
+                            ></i>
+                        </div>
+                        <div class="urlContainer">
+                            <span id="urlDisplay"></span>
+                            <button id="copiarButton">
+                            Copiar <i class="bi bi-copy"></i>
+                            </button>
+                        </div>
+                        <a class="whatsappbtn" id="whatsappButton"
+                            >WhatsApp <i class="bi bi-whatsapp"></i
+                        ></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </section>
+                <!-- Widget -->
+                <section class="artigos-widget">
+                <!-- Ferramenta de busca -->
+                <div class="widget-section">
+                    <h2>Pesquisa no Blog</h2>
+                    <!-- seachbar -->
+                    <section>
+                    <div class="container" id="seachbar">
+                        <div class="row align-items-center">
+                        <div class="col-md-12">
+                            <div class="input-group">
+                            <input
+                                type="text"
+                                id="pesquisa"
+                                class="form-control p-3 border-light"
+                                placeholder="Pesquisar por..."
+                            />
+                            <button class="btn btn-danger p-3" type="button">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </section>
+                </div>
+                <div class="widget-section">
+                    <h2>Categorias</h2>
+                    <div id="categorias">
+                    <h3><a href="../assets/artigos/marketing.html">Marketing</a></h3>
+                    <h3>
+                        <a href="../assets/artigos/tecnologia.html">Tecnologia</a>
+                    </h3>
+                    <h3>
+                        <a href="../assets/artigos/contabilidade.html">Contabilidade</a>
+                    </h3>
+                    <h3><a href="../assets/artigos/vendas.html">Vendas</a></h3>
+                    </div>
+                </div>
+                <div class="widget-section">
+                    <h2>Áreas</h2>
+                    <div>
+                    <h3><a href="">Contabilidade para Afiliados</a></h3>
+                    <h3><a href="">Contabilidade para Youtubers</a></h3>
+                    <h3><a href="">Contabilidade para Microempreendedores</a></h3>
+                    <h3><a href="">Contabilidade para Advogados</a></h3>
+                    </div>
+                </div>
+                <div class="widget-section">
+                    <h2>Diversos</h2>
+                    <div>
+                    <h3><a href="">Abertura de Empresa</a></h3>
+                    <h3><a href="">Sistema Conta</a></h3>
+                    <h3><a href="">Sistema E-notas</a></h3>
+                    <h3><a href="">Trabelhe conosco</a></h3>
+                    <h3><a href="">Contato</a></h3>
+                    </div>
+                </div>
+                </section>
+                <!-- icone whatsapp pulse -->
+                <div>
+                <a
+                    href="https://api.whatsapp.com/send?phone=5581982026619&text=Ol%C3%A1,%20como%20podemos%20ajudar?"
+                    class="wa"
+                    target="_blank"
+                >
+                    <img src="../assets/images/WhatsApp.webp" alt width="25" />
+                </a>
+                </div>
+            </main>
+        </div>
+        <footer class="container-fluid px-5 bg-dark text-light sm-text-center">
+            <div class="row-col-small py-3">
+              <div class="flex-column d-flex justify-content-center font-small">
+                <div
+                  class="flex-row d-flex justify-content-center align-items-center"
+                >
+                  <a href="https://www.anexoconsultoria.com.br/"
+                    ><img
+                      src="../assets/images/logo-anexo.webp"
+                      alt="logo anexo"
+                      class="logo-footer"
+                  /></a>
+                </div>
+              </div>
+              <div class="flex-column d-flex justify-content-around">
+                <div>
+                  <p>
+                    Rua Irene Ramos Gomes de Mattos, 63 <br />Pina Recife - PE
+                    51.011-530
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    (81) 3019-6619 / 3132-9661 / 98202-6619
+                    <br />proposta@anexoconsultoria.com.br
+                  </p>
+                </div>
+              </div>
+              <div>
+                <div class="ms-auto conteudos">
+                  <p class="text-light text-center"><strong>CONTEÚDOS</strong></p>
+                  <a
+                    class="nav-link-footer ms-3"
+                    href="/assets/artigos/marketing.html"
+                    >Marketing</a
+                  >
+                  <a
+                    class="nav-link-footer ms-3"
+                    href="/assets/artigos/tecnologia.html"
+                    >Tecnologia</a
+                  >
+                  <a
+                    class="nav-link-footer ms-3"
+                    href="/assets/artigos/contabilidade.html"
+                    >Contabilidade</a
+                  >
+                  <a class="nav-link-footer ms-3" href="/assets/artigos/vendas.html"
+                    >Vendas</a
+                  >
+                </div>
+              </div>
+      
+              <div class="flex-row d-flex justify-content-center align-items-center">
+                <div>
+                  <p class="font-small text-center mx-2">Desenvolvido por:</p>
+                  <a href="https://www.promovacomunicacao.com.br/"
+                    ><img
+                      src="../assets/images/logo-promova-04.webp"
+                      alt="logo promova"
+                      class="logo-footer"
+                  /></a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="border-top border-secondary row-col py-3">
+              <div>
+                <p class="text-center">
+                  © Anexo Consultoria 2023 - Todos os direitos reservados
+                </p>
+              </div>
+              <div
+                class="icone-redes-sociais text-center d-flex justify-content-center"
+              >
+                <div class="d-flex flex-row gap-3 text-decoration-none">
+                  <a
+                    href="https://api.whatsapp.com/send?phone=5581982026619&text=Ol%C3%A1,%20como%20podemos%20ajudar?"
+                    alt="redes sociais"
+                    ><i class="fa-brands fa-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/contabilidaderecife/"
+                    alt="redes sociais"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/anexogestaocontabil"
+                    alt="redes sociais"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/company/anexogestaocontabil/mycompany/"
+                    alt="redes sociais"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                  <a
+                    href="mailto:proposta@anexoconsultoria.com.br"
+                    alt="redes sociais"
+                    ><i class="fa-regular fa-envelope"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+        </footer>
+    <script src="/assets/js/artigo.js"></script>
+  </body>
+</html>

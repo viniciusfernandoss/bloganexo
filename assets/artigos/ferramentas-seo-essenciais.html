@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Ferramentas de SEO essenciais - Blog Anexo Consultoria Contábil
+    </title>
+
+    <meta
+      name="description"
+      content="Descubra as ferramentas de SEO essenciais para otimizar seu site e melhorar sua classificação nos mecanismos de busca, como o Google"
+    />
+    <meta
+      name="keywords"
+      content="SEO
+    Ferramentas de SEO
+    Otimização de sites
+    Palavras-chave
+    Análise de concorrência
+    Backlinks
+    Google Analytics
+    Google Search Console
+    Marketing digital
+    Conteúdo de qualidade"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Anexo contabilidade" />
+
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat:wght@300&family=Orbitron:wght@500&family=Raleway&family=Russo+One&family=Titan+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/647606b0ed.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/artigos.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="bg-light">
+      <nav class="navbar px-5 navbar-expand-sm navbar-light">
+        <div class="nav-items container-fluid">
+          <div>
+            <a class="navbar-brand m-0" href="../index.html"
+              ><img src="../assets/images/logo.png" width="180" alt
+            /></a>
+            <button
+              class="navbar-toggler border-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link ms-3" href="../assets/artigos/marketing.html"
+                >Marketing</a
+              >
+              <a class="nav-link ms-3" href="../assets/artigos/tecnologia.html"
+                >Tecnologia</a
+              >
+              <a
+                class="nav-link ms-3"
+                href="../assets/artigos/contabilidade.html"
+                >Contabilidade</a
+              >
+              <a class="nav-link ms-3" href="../assets/artigos/vendas.html"
+                >Vendas</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-artigo">
+      <main>
+        <!-- artigos -->
+        <section id="artigos-ver-mais p-5" class="container-fluid text-dark">
+          <div class="row d-flex justify-content-center my-2">
+            <div
+              class="artigo-corpo col-md-9 d-flex justify-content-between flex-row align-items-center p-1"
+            >
+              <div class="row">
+                <div
+                  class="col-md-12 col-md d-flex justify-content-around flex-column p-3"
+                >
+                  <div class="artigos-info"></div>
+                  <div class="artigo-text">
+                    <figure>
+                      <img src="img/seo.jpg" alt="SEO" />
+                    </figure>
+                    <h1>
+                      Conheça as <strong>ferramentas SEO</strong> essenciais
+                      para você chegar no topo
+                    </h1>
+
+                    <div class="indice">
+                      <div
+                        class="d-flex align-items-center"
+                        style="margin-bottom: 10px"
+                      >
+                        <h4>ÍNDICE</h4>
+                        [<span id="ocultar" onclick="ocultarIndice()"> OCULTAR </span>]
+                      </div>
+                      <div id="itens-indice">
+                        <ol>
+                          <li>
+                            <a href="#ferramentas-seo-essenciais"
+                              >Ferramentas SEO Essenciais</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#impactos-da-ferramenta-seo"
+                              >Impactos da ferramenta SEO</a
+                            >
+                          </li>
+                          <li>
+                            <a href="#os-fundamentos-das-ferramentas-de-seo"
+                              >Os Fundamentos das Ferramentas de SEO</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="#ferramentas-de-seo-para-blog-que-voce-deve-testar"
+                              >Ferramentas de SEO para Blog que você deve
+                              testar</a
+                            >
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+
+                    <h2 id="ferramentas-seo-essenciais" class="m-4">Ferramentas SEO Essenciais</h2>
+                    <ol>
+                      <li>
+                        <p>
+                          Pesquisa de palavras-chave: Essas ferramentas ajudam a
+                          identificar palavras-chave relevantes para o seu nicho
+                          e público-alvo, bem como a analisar a concorrência
+                          nessas palavras-chave.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Auditoria de sites: Essas ferramentas verificam a
+                          saúde geral do seu site, identificando problemas
+                          técnicos, como erros 404, problemas de velocidade,
+                          otimização de títulos e meta descrições, entre outros.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Análise de concorrência: Essas ferramentas permitem
+                          que você analise a estratégia de SEO dos seus
+                          concorrentes, incluindo as palavras-chave que eles
+                          estão segmentando, os backlinks que estão obtendo e
+                          outras métricas relevantes.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Monitoramento de classificação: Essas ferramentas
+                          rastreiam a posição do seu site nos resultados de
+                          pesquisa para palavras-chave específicas ao longo do
+                          tempo.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Análise de backlinks: Elas ajudam a identificar os
+                          backlinks que direcionam para o seu site, avaliando
+                          sua qualidade e a relevância dos sites de origem.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Pesquisa de conteúdo: Algumas ferramentas auxiliam na
+                          identificação de tópicos e ideias de conteúdo
+                          relevantes para o seu público-alvo.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Alguns exemplos de ferramentas populares de SEO
+                          incluem o Google Search Console, o Google Analytics, o
+                          SEMrush, o Moz, o Ahrefs e o Screaming Frog, entre
+                          muitos outros. A escolha da ferramenta certa depende
+                          das necessidades específicas do seu site e dos
+                          objetivos de SEO que você deseja alcançar.
+                        </p>
+                      </li>
+                    </ol>
+
+                    <h2 id="impactos-da-ferramenta-seo">Impactos da <strong>ferramenta SEO</strong></h2>
+                    <p>
+                      A
+                      <a
+                        href="https://www.anexoconsultoria.com.br/orcamento-outros-servicos.php"
+                        target="_blank"
+                        >ferramenta SEO</a
+                      >
+                      (Search Engine Optimization), ou otimização de mecanismos
+                      de busca, é fundamental para o sucesso de sites e conteúdo
+                      online. Ela visa melhorar a visibilidade de um site nos
+                      resultados dos mecanismos de busca, como o Google, Bing e
+                      outros. Os impactos positivos da utilização de técnicas de
+                      SEO são variados e podem incluir:
+                    </p>
+                    <ul>
+                      <li>
+                        Aumento do Tráfego Orgânico: O SEO eficaz pode aumentar
+                        significativamente o tráfego orgânico para um site, ou
+                        seja, visitantes que chegam ao seu site sem a
+                        necessidade de publicidade paga.
+                      </li>
+                      <li>
+                        Melhor Classificação nos Mecanismos de Busca: O SEO
+                        ajuda a melhorar a classificação do seu site nos
+                        resultados de pesquisa, tornando-o mais visível para as
+                        pessoas que pesquisam palavras-chave relacionadas ao seu
+                        conteúdo ou negócio.
+                      </li>
+                      <li>
+                        Aumento da Credibilidade e Autoridade: Sites que
+                        aparecem nas primeiras posições dos resultados de
+                        pesquisa são frequentemente percebidos como mais
+                        confiáveis e autoritários, o que pode melhorar a imagem
+                        da sua marca.
+                      </li>
+                      <li>
+                        Melhor Experiência do Usuário: A otimização para
+                        mecanismos de busca também envolve melhorias na
+                        estrutura e no desempenho do site, o que resulta em uma
+                        experiência melhor para o usuário, incluindo tempos de
+                        carregamento mais rápidos e uma navegação mais fácil.
+                      </li>
+                      <li>
+                        Maior Conversão de Visitantes: Quando o tráfego orgânico
+                        aumenta e os visitantes encontram o que estão
+                        procurando, as taxas de conversão tendem a subir. Isso é
+                        especialmente importante para empresas que desejam gerar
+                        leads ou vendas.
+                      </li>
+                      <li>
+                        Economia de Custos em Publicidade: Uma vez que o SEO é
+                        uma estratégia de longo prazo, quando bem executada,
+                        pode reduzir a necessidade de publicidade paga,
+                        economizando dinheiro a longo prazo.
+                      </li>
+                      <li>
+                        Análise de Dados e Melhor Tomada de Decisões: As
+                        ferramentas de SEO geralmente oferecem análises e
+                        métricas detalhadas, permitindo que você avalie o
+                        desempenho do seu site e ajuste sua estratégia com base
+                        nos dados.
+                      </li>
+                      <li>
+                        Expansão Global: Com as práticas de SEO corretas, você
+                        pode atingir públicos globais e expandir seus negócios
+                        para mercados internacionais.
+                      </li>
+                      <li>
+                        Competitividade: Em mercados altamente competitivos, o
+                        SEO pode ser uma ferramenta crucial para destacar-se da
+                        concorrência.
+                      </li>
+                      <li>
+                        Relevância Contínua: À medida que as práticas de SEO
+                        evoluem e os mecanismos de busca atualizam seus
+                        algoritmos, manter-se atualizado com as melhores
+                        práticas ajuda a manter a relevância do seu site a longo
+                        prazo.
+                      </li>
+                    </ul>
+                    <p>
+                      No entanto, é importante observar que o SEO é uma
+                      disciplina em constante evento, é fundamental manter-se
+                      atualizado com as melhores práticas de SEO e adaptar sua
+                      estratégia conforme necessário para continuar colhendo os
+                      benefícios dessa função, e os mecanismos de busca
+                      frequentemente atualizam seus algoritmos. Porta Poderosa
+                      ferramenta. Além disso, o SEO não fornece resultados
+                      imediatos e exige esforço contínuo para alcançar e manter
+                      o sucesso a longo prazo.
+                    </p>
+
+                    <h2 id="os-fundamentos-das-ferramentas-de-seo">
+                      Os Fundamentos das <strong>Ferramentas de SEO</strong>
+                    </h2>
+                    <p>
+                      <a
+                        href="https://www.anexoconsultoria.com.br/orcamento-outros-servicos.php"
+                        target="_blank"
+                        >Search Engine Optimization</a
+                      >
+                      (SEO) é uma prática essencial para qualquer empresa que
+                      deseje ter presença online significativa. As ferramentas
+                      de SEO desempenham um papel crucial nesse processo,
+                      permitindo que profissionais de marketing e proprietários
+                      de sites otimizem seus conteúdos e melhorem sua
+                      classificação nos resultados dos motores de busca, como o
+                      Google. Para compreender plenamente o SEO, é fundamental
+                      conhecer os fundamentos das ferramentas que o tornam
+                      possível.
+                    </p>
+                    <ul>
+                      <li>
+                        Pesquisa de Palavras-Chave: A pesquisa de palavras-chave
+                        é a base do SEO. As ferramentas de SEO permitem
+                        identificar as palavras-chave mais relevantes para o seu
+                        nicho de mercado. Essas palavras-chave são usadas para
+                        otimizar o conteúdo do site e melhorar a visibilidade
+                        nos motores de busca.
+                      </li>
+                      <li>
+                        Análise de Concorrência: Para competir eficazmente, é
+                        essencial compreender o que seus concorrentes estão
+                        fazendo. As ferramentas de análise de concorrência
+                        permitem avaliar o desempenho de outros sites em relação
+                        às palavras-chave e estratégias de SEO utilizadas.
+                      </li>
+                      <li>
+                        Auditoria de SEO: As auditorias de SEO avaliam o
+                        desempenho atual do seu site em termos de SEO. Elas
+                        identificam problemas, como links quebrados, páginas
+                        lentas, tags ausentes ou duplicadas e outros fatores que
+                        podem afetar negativamente a classificação nos motores
+                        de busca.
+                      </li>
+                      <li>
+                        Backlinks e Link Building: Os backlinks (links de outros
+                        sites para o seu) desempenham um papel crucial no SEO.
+                        Ferramentas de SEO ajudam a identificar backlinks de
+                        qualidade e a criar estratégias de link building para
+                        melhorar a autoridade do seu site.
+                      </li>
+                      <li>
+                        Monitoramento de Desempenho: Acompanhar o desempenho do
+                        seu site é essencial. Ferramentas de monitoramento de
+                        SEO fornecem informações sobre classificações de
+                        palavras-chave, tráfego orgânico, taxas de cliques e
+                        outros indicadores-chave.
+                      </li>
+                      <li>
+                        Otimização On-Page: As ferramentas de SEO ajudam a
+                        otimizar o conteúdo do seu site, fornecendo sugestões
+                        para melhorar títulos, meta descrições, estrutura de
+                        URL, tags de cabeçalho e muito mais.
+                      </li>
+                      <li>
+                        Métricas de SEO: Métricas como PageRank, Domain
+                        Authority e Page Authority ajudam a avaliar a autoridade
+                        do seu site. Ferramentas de SEO fornecem acesso a essas
+                        métricas e ajudam a melhorar sua posição.
+                      </li>
+                      <li>
+                        Monitoramento de Palavras-Chave: A classificação das
+                        palavras-chave pode mudar constantemente. As ferramentas
+                        de monitoramento de palavras-chave permitem que você
+                        acompanhe as posições de suas palavras-chave-alvo e
+                        ajuste sua estratégia conforme necessário.
+                      </li>
+                      <li>
+                        Geração de Relatórios: A geração de relatórios é uma
+                        parte importante do SEO. As ferramentas de SEO permitem
+                        criar relatórios personalizados para mostrar o progresso
+                        e os resultados de suas estratégias de otimização.
+                      </li>
+                      <li>
+                        Tendências e Atualizações de Algoritmo: Os algoritmos
+                        dos motores de busca estão em constante evolução. As
+                        ferramentas de SEO fornecem informações sobre as últimas
+                        tendências e atualizações para que você possa ajustar
+                        sua estratégia de acordo.
+                      </li>
+                    </ul>
+                    <p>
+                      Em resumo, as ferramentas de SEO são essenciais para
+                      qualquer estratégia de
+                      <a
+                        href="https://www.anexoconsultoria.com.br/mkt.php"
+                        target="_blank"
+                        >marketing online</a
+                      >
+                      bem-sucedida. Elas capacitam profissionais de marketing e
+                      proprietários de sites a tomar decisões informadas e a
+                      otimizar seus conteúdos para atrair mais tráfego orgânico,
+                      aumentar a visibilidade nos motores de busca e alcançar o
+                      sucesso digital.
+                    </p>
+
+                    <p>
+                      Análise de palavras-chave: O SEMrush permite que você
+                      pesquise palavras-chave relevantes para o seu nicho,
+                      avalie a concorrência e descubra oportunidades de
+                      palavras-chave de baixa concorrência.
+                    </p>
+                    <p>
+                      Análise de concorrentes: Você pode inserir o domínio de
+                      seus concorrentes e obter informações detalhadas sobre sua
+                      estratégia de SEO, incluindo as palavras-chave que estão
+                      classificando, seus backlinks e muito mais.
+                    </p>
+                    <p>
+                      Auditoria de sites: O SEMrush oferece uma ferramenta de
+                      auditoria de sites que ajuda a identificar problemas
+                      técnicos e de SEO em seu site, como links quebrados,
+                      páginas em falta, tags meta ausentes, entre outros.
+                    </p>
+
+                    <figure>
+                      <img src="img/seo-2.jpg" alt="Mãos digitando" />
+                    </figure>
+
+                    <h2 id="ferramentas-de-seo-para-blog-que-voce-deve-testar">
+                      <strong>Ferramentas de SEO</strong> para Blog que você
+                      deve testar
+                    </h2>
+
+                    <p>Google PageSpeed ​​Insights</p>
+                    <p>
+                      O Google PageSpeed Insights é uma ferramenta essencial
+                      para proprietários de sites, desenvolvedores da web e
+                      profissionais de marketing digital que desejam otimizar o
+                      desempenho de seus sites e melhorar a experiência do
+                      usuário. Esta ferramenta, desenvolvida pelo Google,
+                      desempenha um papel crucial na avaliação da velocidade de
+                      carregamento de páginas da web, identificando
+                      oportunidades de otimização e fornecendo recomendações
+                      específicas para melhorar o desempenho.
+                    </p>
+                    <p>
+                      Entre os principais aspectos analisados pelo Google
+                      PageSpeed Insights, podemos citar:
+                    </p>
+                    <ul>
+                      <li>
+                        Velocidade de Carregamento: A ferramenta avalia o tempo
+                        que uma página leva para carregar completamente. Quanto
+                        mais rápido, melhor.
+                      </li>
+                      <li>
+                        Otimização para Dispositivos Móveis: Dada a importância
+                        dos dispositivos móveis, o PageSpeed Insights verifica
+                        se o site é responsivo e se o desempenho é satisfatório
+                        em smartphones e tablets.
+                      </li>
+                      <li>
+                        Redução de Tamanho de Imagens: Recomendações são
+                        fornecidas para diminuir o tamanho de imagens e outros
+                        recursos de mídia, o que pode acelerar o carregamento da
+                        página.
+                      </li>
+                      <li>
+                        Minificação de Recursos: A ferramenta sugere a redução
+                        de arquivos CSS e JavaScript, minimizando-os para
+                        diminuir o tempo de carregamento.
+                      </li>
+                      <li>
+                        Cache do Navegador: Recomendações são dadas para
+                        habilitar o cache do navegador, permitindo que os
+                        visitantes carreguem páginas mais rapidamente após a
+                        primeira visita.
+                      </li>
+                      <li>
+                        Compactação de Texto: É sugerida a compactação de
+                        recursos de texto, como HTML e CSS, para acelerar a
+                        transferência de dados.
+                      </li>
+                      <li>
+                        Melhorias na Renderização: Recomendações para otimizar a
+                        forma como o navegador processa e exibe páginas.
+                      </li>
+                    </ul>
+                    <p>
+                      O Google PageSpeed Insights não apenas avalia a velocidade
+                      de carregamento de uma página, mas também fornece
+                      informações práticas para corrigir os problemas
+                      detectados, garantindo uma experiência do usuário mais
+                      rápida e eficiente. Ao seguir essas recomendações, os
+                      proprietários de sites podem melhorar seu posicionamento
+                      nos mecanismos de busca, reduzir as taxas de rejeição e,
+                      em última análise, alcançar um site mais eficaz e amigável
+                      para os visitantes. Portanto, o PageSpeed Insights é uma
+                      ferramenta valiosa para quem deseja otimizar seu site e
+                      ter sucesso na internet.
+                    </p>
+
+                    <p>
+                      O SEMrush é uma ferramenta popular de SEO (Search Engine
+                      Optimization) que oferece uma variedade de recursos e
+                      funcionalidades para ajudar os profissionais de marketing
+                      digital a otimizar seus sites e melhorar seu desempenho
+                      nos mecanismos de busca, como o Google. Aqui estão alguns
+                      dos recursos e funcionalidades-chave do SEMrush: pode
+                      acompanhar o desempenho de suas palavras-chave e ver como
+                      suas classificações nos mecanismos de busca mudam ao longo
+                      do tempo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Widget -->
+        <section class="artigos-widget">
+          <!-- Ferramenta de busca -->
+          <div class="widget-section">
+            <h2>Pesquisa no Blog</h2>
+            <!-- seachbar -->
+            <section>
+              <div class="container" id="seachbar">
+                <div class="row align-items-center">
+                  <div class="col-md-12">
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        id="pesquisa"
+                        class="form-control p-3 border-light"
+                        placeholder="Pesquisar por..."
+                      />
+                      <button class="btn btn-danger p-3" type="button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="widget-section">
+            <h2>Categorias</h2>
+            <div id="categorias">
+              <h3><a href="../assets/artigos/marketing.html">Marketing</a></h3>
+              <h3>
+                <a href="../assets/artigos/tecnologia.html">Tecnologia</a>
+              </h3>
+              <h3>
+                <a href="../assets/artigos/contabilidade.html">Contabilidade</a>
+              </h3>
+              <h3><a href="../assets/artigos/vendas.html">Vendas</a></h3>
+            </div>
+          </div>
+          <div class="widget-section">
+            <h2>Áreas</h2>
+            <div>
+              <h3><a href="">Contabilidade para Afiliados</a></h3>
+              <h3><a href="">Contabilidade para Youtubers</a></h3>
+              <h3><a href="">Contabilidade para Microempreendedores</a></h3>
+              <h3><a href="">Contabilidade para Advogados</a></h3>
+            </div>
+          </div>
+          <div class="widget-section">
+            <h2>Diversos</h2>
+            <div>
+              <h3><a href="">Abertura de Empresa</a></h3>
+              <h3><a href="">Sistema Conta</a></h3>
+              <h3><a href="">Sistema E-notas</a></h3>
+              <h3><a href="">Trabelhe conosco</a></h3>
+              <h3><a href="">Contato</a></h3>
+            </div>
+          </div>
+        </section>
+        <!-- icone whatsapp pulse -->
+        <div>
+          <a
+            href="https://api.whatsapp.com/send?phone=5581982026619&text=Ol%C3%A1,%20como%20podemos%20ajudar?"
+            class="wa"
+            target="_blank"
+          >
+            <img src="../assets/images/WhatsApp.webp" alt width="25" />
+          </a>
+        </div>
+      </main>
+    </div>
+    <footer class="container-fluid px-5 bg-dark text-light sm-text-center">
+      <div class="row-col-small py-3">
+        <div class="flex-column d-flex justify-content-center font-small">
+          <div
+            class="flex-row d-flex justify-content-center align-items-center"
+          >
+            <a href="https://www.anexoconsultoria.com.br/"
+              ><img
+                src="../assets/images/logo-anexo.webp"
+                alt="logo anexo"
+                class="logo-footer"
+            /></a>
+          </div>
+        </div>
+        <div class="flex-column d-flex justify-content-around">
+          <div>
+            <p>
+              Rua Irene Ramos Gomes de Mattos, 63 <br />Pina Recife - PE
+              51.011-530
+            </p>
+          </div>
+          <div>
+            <p>
+              (81) 3019-6619 / 3132-9661 / 98202-6619
+              <br />proposta@anexoconsultoria.com.br
+            </p>
+          </div>
+        </div>
+        <div>
+          <div class="ms-auto conteudos">
+            <p class="text-light text-center"><strong>CONTEÚDOS</strong></p>
+            <a
+              class="nav-link-footer ms-3"
+              href="/assets/artigos/marketing.html"
+              >Marketing</a
+            >
+            <a
+              class="nav-link-footer ms-3"
+              href="/assets/artigos/tecnologia.html"
+              >Tecnologia</a
+            >
+            <a
+              class="nav-link-footer ms-3"
+              href="/assets/artigos/contabilidade.html"
+              >Contabilidade</a
+            >
+            <a class="nav-link-footer ms-3" href="/assets/artigos/vendas.html"
+              >Vendas</a
+            >
+          </div>
+        </div>
+
+        <div class="flex-row d-flex justify-content-center align-items-center">
+          <div>
+            <p class="font-small text-center mx-2">Desenvolvido por:</p>
+            <a href="https://www.promovacomunicacao.com.br/"
+              ><img
+                src="../assets/images/logo-promova-04.webp"
+                alt="logo promova"
+                class="logo-footer"
+            /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-top border-secondary row-col py-3">
+        <div>
+          <p class="text-center">
+            © Anexo Consultoria 2023 - Todos os direitos reservados
+          </p>
+        </div>
+        <div
+          class="icone-redes-sociais text-center d-flex justify-content-center"
+        >
+          <div class="d-flex flex-row gap-3 text-decoration-none">
+            <a
+              href="https://api.whatsapp.com/send?phone=5581982026619&text=Ol%C3%A1,%20como%20podemos%20ajudar?"
+              alt="redes sociais"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/contabilidaderecife/"
+              alt="redes sociais"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/anexogestaocontabil"
+              alt="redes sociais"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/anexogestaocontabil/mycompany/"
+              alt="redes sociais"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="mailto:proposta@anexoconsultoria.com.br"
+              alt="redes sociais"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/assets/js/artigo.js"></script>
+  </body>
+</html>
