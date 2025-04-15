@@ -123,6 +123,24 @@
       "data": "24/02/2025",
       "categoria": "Marketing",
       "url": "estrategias-essenciais-para-o-marketing-digital-na-contabilidade.html"
+    },
+    {
+      "imagem": "/artigos/img/foto1-artigo15042025.webp",
+      "titulo": "Personalização e Segmentação Avançada: o futuro do marketing contábil",
+      "descricao": "O artigo destaca como personalização e segmentação ajudam escritórios contábeis a se comunicarem melhor, atraírem e fidelizarem clientes.",
+      "resumo":"Personalização e segmentação avançada tornam o marketing contábil mais eficaz, gerando mais valor, engajamento e fidelização.",
+      "data": "08/04/2025",
+      "categoria": "Marketing",
+      "url": "personalizacao-e-segmentacao-avancada.html"
+    },
+    {
+      "imagem": "/artigos/img/foto1-artigo08042025.webp",
+      "titulo": "Tecnologia em 2025: Inovações Que Estão Moldando o Futuro",
+      "descricao": "O artigo explora as principais tendências tecnológicas de 2025 e como elas impactam empresas e a sociedade, destacando inovação, conectividade e segurança.",
+      "resumo":"Em 2025, tecnologias como IA, computação quântica, 5G, RA/RV e cibersegurança estão moldando o futuro. Empresas devem se adaptar para aproveitar oportunidades.",
+      "data": "15/04/2025",
+      "categoria": "Tecnologia",
+      "url": "tecnologia-em-2025.html"
     }
   ]
 }
