@@ -141,6 +141,24 @@
       "data": "15/04/2025",
       "categoria": "Tecnologia",
       "url": "tecnologia-em-2025.html"
+    },
+    {
+      "imagem": "/artigos/img/foto1-artigo22042025.jpg",
+      "titulo": "Tendências Atuais na Contabilidade: O que Esperar em 2025",
+      "descricao": "A contabilidade evolui com a tecnologia e se torna peça-chave na estratégia empresarial.",
+      "resumo":"A contabilidade está mais estratégica, com foco em tecnologia, automação e reformas fiscais. Contadores se tornam consultores essenciais para o crescimento das empresas.",
+      "data": "22/04/2025",
+      "categoria": "Contabilidade",
+      "url": "tendencias-atuais-na-contabilidade.html"
+    },
+    {
+      "imagem": "/artigos/img/foto1-artigo29042025.jpg",
+      "titulo": "As Novas Dinâmicas que Estão Moldando o Mundo das Vendas",
+      "descricao": "Vender hoje é entender, personalizar e conectar.",
+      "resumo":"Vendas modernas usam IA, redes sociais e personalização. O vendedor agora é um consultor que cria valor e conexão.",
+      "data": "29/04/2025",
+      "categoria": "Vendas",
+      "url": "as-novas-dinamicas-que -estao-moldando-o-mundo-das-vendas.html"
     }
   ]
 }
